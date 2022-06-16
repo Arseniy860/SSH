@@ -6,6 +6,8 @@ RUN apt-get update && \
    apt install python3 -y && \
    apt install git -y && \
    apt install pip -y && \
+   apt install nodejs -y && \
+   apt install npm -y && \
   rm -rf /var/lib/apt/lists/*
 
 EXPOSE 80
