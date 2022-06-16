@@ -2,7 +2,10 @@ FROM devisty/xssh:v2
 
 RUN apt-get update && \
   apt-get upgrade -y && \
-  apt install python pithon3 git pip
+  apt install python -y && \
+   apt install python3 -y && \
+   apt install git -y && \
+   apt install pip -y && \
   rm -rf /var/lib/apt/lists/*
 
 EXPOSE 80
