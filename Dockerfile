@@ -10,7 +10,7 @@ RUN apt-get update && \
   apt install npm -y && \
   apt install nmap -y && \
   apt install sqlmap -y && \
-  git clone https://github.com/MatrixTM/MHDDoS.git
+  git clone https://github.com/MatrixTM/MHDDoS.git && \
   rm -rf /var/lib/apt/lists/*
 
 EXPOSE 80
